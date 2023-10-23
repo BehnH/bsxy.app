@@ -5,8 +5,8 @@ go 1.21.3
 require (
 	github.com/bluesky-social/indigo v0.0.0-20231018194245-d4dfa2e3d870
 	github.com/gofiber/fiber/v2 v2.50.0
+	github.com/redis/go-redis/v9 v9.2.1
 	go.uber.org/zap v1.26.0
-	golang.org/x/text v0.13.0
 )
 
 require (
@@ -45,7 +45,6 @@ require (
 	github.com/multiformats/go-varint v0.0.7 // indirect
 	github.com/opentracing/opentracing-go v1.2.0 // indirect
 	github.com/polydawn/refmt v0.89.1-0.20221221234430-40501e09de1f // indirect
-	github.com/redis/go-redis/v9 v9.2.1 // indirect
 	github.com/rivo/uniseg v0.2.0 // indirect
 	github.com/spaolacci/murmur3 v1.1.0 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
