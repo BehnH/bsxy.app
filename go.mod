@@ -1,6 +1,6 @@
 module bsxy_app
 
-go 1.21.3
+go 1.21
 
 require (
 	github.com/bluesky-social/indigo v0.0.0-20231018194245-d4dfa2e3d870
