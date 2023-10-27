@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="bsxy.app by @behn.dev" />
+    <meta property="og:site_url" content="https://bsky.app/profile/behn.dev" />
+    <meta property="og:article:author" content="{{ .followers }} Followers // Following {{ .following }}" />
+    <meta property="og:article:author_url" content="{{ .handle }}" />
+    <meta property="og:title" content="{{ .displayName }}" />
+    <meta property="og:url" content="https://bsky.app/profile/{{ .handle }}" />
+    <meta property="og:image" content="{{ .banner }}" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:description" content="{{ .description }}" />
+    <meta property="theme-color" content="#0085ff" />
+
+    <script>
+            window.location.replace("https://bsky.app/profile/{{ .handle }}")
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
