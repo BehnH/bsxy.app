@@ -16,4 +16,10 @@ func Router(app *fiber.App) {
 	profile := app.Group("/profile")
 	profile.Get("/:id", profile2.GetProfile)
 	profile.Get("/:id/post/:post", profile2.GetFeedPost)
+
+	health := app.Group("/health")
+	health.Get("", func(ctx *fiber.Ctx) error {
+		logger.SLog().Info("Received health check")
+		return ctx.SendStatus(fiber.StatusOK)
+	})
 }
