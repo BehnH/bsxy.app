@@ -6,7 +6,7 @@ require (
 	github.com/bluesky-social/indigo v0.0.0-20231018194245-d4dfa2e3d870
 	github.com/gofiber/fiber/v2 v2.50.0
 	github.com/redis/go-redis/v9 v9.2.1
-	go.uber.org/zap v1.26.0
+	go.uber.org/zap v1.27.0
 )
 
 require (
